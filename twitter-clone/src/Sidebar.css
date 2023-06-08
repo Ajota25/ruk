@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Playball&display=swap');
+
+.rRuk{
+    font-family: 'Playball';
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 90px;
+    cursor: pointer;
+}
+
+.rRuk:hover{
+    color: var(--app-color);
+    transition: color 200ms ease-out;
+}
+

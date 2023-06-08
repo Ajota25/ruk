@@ -1,0 +1,13 @@
+body{
+    --app-color: rgb(137, 74, 255);
+    --bg-color: #e8f5fe;
+}
+
+.app{
+    display: flex;
+    height: 100vh;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}

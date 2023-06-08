@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebarOption:hover{
+    background-color: var(--app-color);
+    border-radius: 40px;
+    color: white;
+    transition: color 200ms ease-out;
+    transition: background-color 200ms ease-out;
+}
+
+.sidebarOption > .MuiSvgIcon-root{
+    padding: 20px;
+}
+
+.sidebarOption > h2{
+    font-family: 'Teko', sans-serif !important;
+    letter-spacing: 3px !important;
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.sidebarOption--active{
+    color: var(--app-color);
+}
+
+.sidebar{
+    border-right: 1px solid var(--bg-color);
+    flex: 0.2;
+    min-width: 250px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sidebar__Ruk{
+    background-color: var(--app-color) !important;
+    border: none !important;
+    color: white !important;
+    font-family: 'Teko', sans-serif !important;
+    font-size: 20px !important;
+    letter-spacing: 8px !important;
+    font-weight: 500 !important;
+    border-radius: 30px !important;
+    /* text-transform: inherit !important; */
+    height: 50px !important;
+    margin-top: 20px !important;
+}

@@ -1,0 +1,43 @@
+.rukBox{
+    padding-bottom: 10px;
+    border-bottom: 8px solid var(--bg-color);
+    padding-right: 10px;
+}
+
+.rukBox > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.rukBox__input{
+    padding: 20px;
+    display: flex;
+}
+
+.rukBox__input > input{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+}
+
+.rukBox__inputImage{
+    border: none;
+    padding: 10px;
+}
+
+.rukBox__rukButton{
+    background-color: var(--app-color) !important;
+    border: none !important;
+    color: white !important;
+    font-family: 'Teko', sans-serif !important;
+    font-size: 20px !important;
+    letter-spacing: 8px !important;
+    font-weight: 500 !important;
+    border-radius: 30px !important;
+    width: 150px !important;
+    /* text-transform: inherit !important; */
+    height: 50px !important;
+    margin-top: 20px !important;
+    margin-left: auto !important;
+}

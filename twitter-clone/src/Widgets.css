@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+.widgets{
+    flex: 0.3;
+}
+
+.widgets__input{
+    display: flex;
+    background-color: var(--bg-color);
+    padding: 10px;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.widgets__input > input{
+    border: none;
+    background-color: var(--bg-color);
+}
+
+.widgets__searchIcon{
+    color: var(--app-color);
+}
+
+.widgets__widgetContainer{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: var(--bg-color);
+    border-radius: 20px;
+}
+
+.widgets__widgetContainer > h2{
+    font-family: 'Teko', sans-serif !important;
+    letter-spacing: 3px !important;
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
